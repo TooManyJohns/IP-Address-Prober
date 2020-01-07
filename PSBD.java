@@ -25,7 +25,7 @@ public class PSBD {
 		
 		
 		// reads txtfile placing it in an array to be scanned for addresses/port number later in the assignment
-		Scanner s = new Scanner(new File( "/Users/John/Desktop/Assignment 2 Data Structures/Assignment2/firewall.log.txt" ));
+		Scanner s = new Scanner(new File( "/Users/John/Desktop/Assignment 2 Data Structures/Assignment2/firewall.log.txt" )); //file location to be changed depending on what your testing
 		ProbeLList p = new ProbeLList(); //Calling ProbeLList Class
 		boolean moreLines = true; //Read end of file
 		int probArrayFull = 0; //If Probelinkedlist is full
